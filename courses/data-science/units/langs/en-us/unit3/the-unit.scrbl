@@ -125,7 +125,7 @@
                           Sometimes we want to create a table that's just a @italic{random sample} of an existing table. Type the following code into the Definitions Area (left-hand side of your screen), and click "Run".
                           @code[#:multi-line #t] {
                               small-sample = random-rows(animals-table,  5)
-                              large-sample = random-rows(animals-table, 50)
+                              large-sample = random-rows(animals-table, 30)
                           }
                           @activity{
                               @itemlist[
